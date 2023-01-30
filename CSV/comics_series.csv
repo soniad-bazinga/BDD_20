@@ -1,0 +1,133 @@
+nom,date_debut,date_fin,nb_tomes,genre,categorie,hero
+Avengers,07-14-2011,07-20-2013,5,superhero,null,Avengers
+Avengers,08-14-1996, 11-07-1997,13,superhero,null,Avengers
+Avengers,05-08-2013,09-24-2015,6,superhero,null,Avengers
+Avengers,09-05-2014,11-30-2015,6,superhero,null,Avengers
+Avengers,01-23-2011,09-04-2013,5,superhero,null,Avengers
+The Avengers,05-07-2016,05-07-2016,1,superhero,null,Avengers
+The Avengers,07-12-1963,12-07-1996,402,superhero,null,Avengers
+Avengers,08-22-1998,01-23-2004,89,superhero,null,Avengers
+Avengers,10-03-2003,09-24-2004,5,superhero,null,Avengers
+Dark Avengers,10-03-2009,02-05-2010,16,superhero,null,Avengers
+The Avengers Annual,08-17-1967,11-24-1994,23,superhero,null,Avengers
+Avengers 2001,07-17-2001,07-17-2001,1,superhero,null,Avengers
+Ultimate Avengers,12-07-2009,03-01-2011,18,superhero,null,Avengers
+New Avengers,02-21-2010,02-27-2013,35,superhero,null,Avengers
+Secret Avengers,06-23-2010,06-21-2013,39,superhero,null,Avengers
+JLA/Avengers,05-02-2003,04-15-2004,2,superhero,null,Avengers
+New Avengers,06-18-2005,10-08-2010,64,superhero,null,Avengers
+Avengers/Invaders,03-11-2009,03-11-2009,1,superhero,null,Avengers
+Avengers Disassembled,04-05-2005,04-05-2005,1,superhero,null,Avengers
+Avengers Assemble,03-21-2004,09-30-2007,4,superhero,null,Avengers
+Avengers Next,12-01-2007,12-01-2007,5,superhero,null,Avengers
+Avengers Assemble,08-13-2012,09-29-2014,25,superhero,null,Avengers
+Avengers:Falcon,03-19-2014,03-19-2014,1,superhero,null,Falcon
+The Avengers-Jollibee,04-22-2012,04-22-2012,1,superhero,null,Avengers
+Avengers Sampler,02-18-2012,02-18-2012,1,superhero,null,Avengers
+U.S.Avengers,12-22-2017,07-08-2018,12,superhero,null,Avengers
+Uncanny Avengers,05-29-2013,02-22-2015,5,superhero,null,Avengers
+Avengers: Standoff,07-11-2010,07-11-2010,1,superhero,null,Avengers
+Avengers: Hawkeye,02-12-2009,02-12-2009,1,superhero,null,Avengers
+Avengers for the Wastelands,06-28-2020,12-12-2020,5,superhero,null,Avengers
+Avengers Forever,12-27-1998,10-16-2000,12,superhero,null,Avengers
+Avengers: The Initiative,08-20-2007,01-28-2010,35,superhero,null,Avengers
+Solo Avengers,12-22-1987,05-08-2000,12,superhero,null,Avengers
+Avengers: The Origin,03-02-2010,05-02-2010,5,superhero,null,Avengers
+Batman,10-10-2020,null,2,superhero,null,Batman
+Batman,07-16-2011,09-08-2016,57,superhero,null,Batman
+Batman: Time and the Batman,08-08-2011,08-08-2011,1,superhero,null,Batman
+Batman: Evolution,02-19-2001,02-19-2001,1,superhero,null,Batman
+Batman: Batgirl,07-17-1998,07-17-1998,1,superhero,null,"Batman, Batgirl"
+Batman: Toyman,02-25-1998,06-11-1999,4,superhero,null,Batman
+Batman and the Outsiders,10-15-2010,03-21-2011,6,superhero,null,Batman
+Batman / Superman,04-13-2020,null,1,superhero,null,"Batman, Superman"
+Batman: Orphans,07-07-2011,10-08-2011,2,superhero,null,Batman
+Batman and the Outsiders,08-23-2019,05-26-2020,17,superhero,null,Batman
+Batman / Superman,08-27-2013,04-04-2016,33,superhero,null,"Batman, Superman"
+Batman and the Robin,10-31-2009,03-16-2011,26,superhero,null,"Batman, Robin"
+Batman: Legacy,10-10-2017,10-03-2018,2,superhero,null,Batman
+Batman Adventures,11-30-2014,05-06-2016,4,superhero,null,Batman
+Batman Beyond,11-06-2017,03-19-2021,8,superhero,null,Batman
+Batman / Superman,05-05-2014,07-21-2017,6,superhero,null,"Batman, Superman"
+Batman Eternal,04-12-2014,10-07-2015,3,superhero,null,Batman
+Batman Inc.,03-30-2011,11-04-2011,8,superhero,null,Batman
+Batman Incorporated,04-07-2012,09-07-2013,14,superhero,null,Batman
+Batman: Hush,06-15-2003,08-02-2003,2,superhero,null,Batman
+Batman / Shadow,02-25-2017,12-28-2017,6,superhero,null,Batman
+The Batman Family,08-26-1975,06-22-1978,20,superhero,null,Batman
+Batman / Wildcat,11-03-1997,11-22-1997,3,superhero,null,Batman
+Azrael,12-04-2009,05-27-2011,18,superhero,null,Azrael
+Azrael / Ash,06-05-1997,06-05-1997,1,superhero,null,Azrael
+Azrael: Agent of the Bat,12-14-1998,05-13-2003,54,superhero,null,Azrael
+Aztek: The Ultimate Man,08-24-1996,05-18-1997,10,superhero,null,Aztek
+Bad Girls,10-03-2003,02-05-2004,5,superhero,null,Lauren Case 
+Bane: Conquest,07-17-2017,08-17-2018,12,superhero,null,Bane
+Bat-Thing,05-02-1997,05-02-1997,1,superhero,null,Bat-Thing
+Batgirl,08-07-2000,04-06-2006,73,superhero,null,Batgirl
+Batgirl,08-04-2015,10-08-2016,3,superhero,null,Batgirl
+Batgirl & the Birds of Prey,10-20-2016,07-05-2018,22,superhero,null,"Batgirl, Birds of Prey"
+Batgirl / Robin Year One,09-07-2013,09-07-2013,1,superhero,null,"Batgirl, Robin"
+Batman & Harley Queen,05-23-2018,05-23-2018,1,superhero,null,"Batman, Harley Quinn"
+Batgirl: Year One,01-30-2003,01-30-2003,1,superhero,null,Batgirl
+Bugs Bunny,06-12-1990,09-18-1990,3,science fiction,null,Bugs Bunny
+Bugs Bunny and Friends,12-08-1998,12-08-1998,1,science fiction,null,Looney Toons
+Captain Atom,03-15-1987,09-14-1991,57,superhero,null,Captain Atom
+Captain Atom: Armagedon,12-12-2005,08-30-2006,9,superhero,null,Captain Atom
+Catwoman,02-14-1989,03-13-1989,4,superhero,null,Catwoman
+Catwoman,09-24-2018,null,31,superhero,null,Catwoman
+Cyborg,05-07-2016,01-17-2017,2,superhero,null,Cyborg
+Cyborg,11-11-2016,08-17-2018,23,superhero,null,Cyborg
+Damian: Son of Batman,12-07-2013,03-20-2014,4,superhero,null,Damian Wayne
+Damian: Son of Batman,09-15-2014,09-15-2014,1,superhero,null,Damian Wayne
+Danger Girl,06-01-1999,02-16-2001,3,superhero,null,Danger Girl
+Dante's Inferno,02-22-2010,06-04-2010,6,science fiction,null,Dante Alighieri
+Doom Force Special,06-05-1992,06-05-1992,1,superhero,null,Doom Force
+The Doom Patrol,03-02-1964,06-07-1973,39,superhero,null,Doom Patrol
+Doom Patrol,10-13-1987,02-25-1995,87,superhero,null,Doom Patrol
+Doom Patrol / JLA Special,03-14-2018,03-14-2018,1,superhero,null,"Doom Patrol, JLA"
+Dr. Fate: Countdown to Mystery,11-12-2008,03-08-2009,6,supehero,null, Dr. Fate
+Enigma,03-15-1993,10-11-1993,8,superhero,null,Enigma
+Ex Machina,08-07-2004,10-26-2010,50,superhero,null,Mitchell Hundred
+Ex Machina #1 Special Edition,05-17-2005,05-17-2005,1,superhero,null,Mitchell Hundred
+Ex Machina #1 Special Edition,05-17-2010,05-17-2010,1,superhero,null,Mitchell Hundred
+Hal Jordan and the Green Lantern Corps,09-10-2016,01-10-2018,50,superhero,null,Hal Jordan
+Hal Jordan and the Green Lantern Corps,12-11-2018,01-10-2019,7,superhero,null,Hal Jordan
+Harley Quinn,12-12-2014,03-08-2017,6,superhero,null,Harley Quinn
+Harley Quinn,01-01-2014,09-11-2016,31,superhero,null,Harley Quinn
+Harley Quinn,05-12-2017,null,3,superhero,null,Harley Quinn
+The Huntress,05-06-1989,10-18-1990,19,superhero,null,Huntress
+Justice League: Darkseid War: Green Lantern,01-05-2016,01-05-2016,1,superhero,null,Green Lantern
+Justice League: Darkseid War: Lex Luthor,04-08-2016,04-08-2016,1,superhero,null,Lex Luthor
+Justice League: Darkseid War: Shazam,01-02-2016,01-02-2016,1,superhero,null,Shazam
+Justice League: Darkseid War: Superman,06-07-2016,06-07-2016,1,superhero,null,Superman
+Justice League: Endless Winter,02-16-2021,null,2,superhero,null,Justice League
+Justice League: Generation Lost,07-10-2010,06-30-2011,24,superhero,null,Justice League
+Justice League: God and Monsters,03-04-2016,null,15,superhero,null,Justice League
+Katana,04-21-2013,02-16-2014,10,superhero,null,Katana
+Kingdom Come,06-18-1996,10-24-1996,4,superhero,null,"Batman, Superman, Wonder Woman, Captain Marvel, The Spectre, Norman McCay"
+Krypton Chronicles,09-10-1981,11-11-1981,3,superhero,null,House of El
+The League of Extraordinary Gentlemen,03-29-1999,09-28-2000,6,science fiction,null,TLEG
+The Legend of Wonder Woman,03-18-2016,null,9,superhero,null,Wonder Woman
+Mad Max: Fury Road,11-21-2015,02-03-2016,3,science fiction,null,Max Rockatansky
+The Man of Steel,10-10-1986,12-12-1986,6,superhero,null,Superman
+The Man of Steel,06-18-2018,09-12-2018,7,superhero,null,Superman
+Marsian Manhunter,10-16-1989,11-20-2001,38,superhero,null,Marsian Manhunter
+Stardust,12-21-1997,05-19-1998,4,science fiction,null,Tristan Thorn
+Nightwing,09-11-1995,12-12-1995,154,superhero,null,Nightwing
+Nightwing / Huntress,03-15-2004,03-15-2004,1,superhero,null,"Nightwing, Huntress"
+Nightwing: Alfred's Return,06-05-1995,06-05-1995,1,superhero,null,Nightwing
+Nightwing: Rebirth,09-11-2016,09-11-2016,1,superhero,null,Nightwing
+Nightwing: Year One,09-18-2005,09-18-2005,1,superhero,null,Nightwing
+Oracle: The Cure,05-01-2009,06-21-2009,3,superhero,null,Oracle
+Pride of Baghdad,03-08-2008,03-08-2008,1,fiction,null,Zill
+Robin - Son of Batman,11-18-2016,04-16-2017,2,superhero,null,Robin
+Robin / Batgirl: Fresh Blood,11-25-2005,11-25-2005,1,superhero,null,"Robin, Batgirl"
+Robin / Spoiler Special,08-16-2008,08-16-2008,1,superhero,null,"Robin, Spoiler"
+Robin: Son of Batman,08-29-2015,08-05-2016,13,superhero,null,Robin
+Sandman,12-18-1975,01-13-1976,6,superhero,null,Sandman
+V for Vandetta,09-08-1988,05-11-1989,10,fiction,null,V
+The Umbrella Academy,09-19-2007,null,24,superhero,null,Umbrella Academy
+The Sandman,01-10-1989,03-15-1996,75,"dark fantasy, horror",null,Dream of the Endless
+The Sandman: The Dream Hunters,06-02-1999,06-02-1999,1,"dark fantasy, horror",null,Dream of the Endless
+Spider-man,12-16-2016,null,2,superhero,null,Spider-man
+Spider-man,08-15-1990,06-14-1998,100,superhero,null,Spider-man

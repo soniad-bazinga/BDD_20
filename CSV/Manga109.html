@@ -1,0 +1,2291 @@
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" data-darkreader-mode="dynamic" data-darkreader-scheme="dark"><head><style class="darkreader darkreader--fallback" media="screen"></style><style class="darkreader darkreader--text" media="screen"></style><style class="darkreader darkreader--invert" media="screen">.jfk-bubble.gtx-bubble, .captcheck_answer_label > input + img, span#closed_text > img[src^="https://www.gstatic.com/images/branding/googlelogo"], span[data-href^="https://www.hcaptcha.com/"] > #icon, #bit-notification-bar-iframe, embed[type="application/pdf"] {
+    filter: invert(100%) hue-rotate(180deg) contrast(90%) !important;
+}</style><style class="darkreader darkreader--inline" media="screen">[data-darkreader-inline-bgcolor] {
+  background-color: var(--darkreader-inline-bgcolor) !important;
+}
+[data-darkreader-inline-bgimage] {
+  background-image: var(--darkreader-inline-bgimage) !important;
+}
+[data-darkreader-inline-border] {
+  border-color: var(--darkreader-inline-border) !important;
+}
+[data-darkreader-inline-border-bottom] {
+  border-bottom-color: var(--darkreader-inline-border-bottom) !important;
+}
+[data-darkreader-inline-border-left] {
+  border-left-color: var(--darkreader-inline-border-left) !important;
+}
+[data-darkreader-inline-border-right] {
+  border-right-color: var(--darkreader-inline-border-right) !important;
+}
+[data-darkreader-inline-border-top] {
+  border-top-color: var(--darkreader-inline-border-top) !important;
+}
+[data-darkreader-inline-boxshadow] {
+  box-shadow: var(--darkreader-inline-boxshadow) !important;
+}
+[data-darkreader-inline-color] {
+  color: var(--darkreader-inline-color) !important;
+}
+[data-darkreader-inline-fill] {
+  fill: var(--darkreader-inline-fill) !important;
+}
+[data-darkreader-inline-stroke] {
+  stroke: var(--darkreader-inline-stroke) !important;
+}
+[data-darkreader-inline-outline] {
+  outline-color: var(--darkreader-inline-outline) !important;
+}
+[data-darkreader-inline-stopcolor] {
+  stop-color: var(--darkreader-inline-stopcolor) !important;
+}</style><style class="darkreader darkreader--variables" media="screen">:root {
+   --darkreader-neutral-background: #131516;
+   --darkreader-neutral-text: #d8d4cf;
+   --darkreader-selection-background: #004daa;
+   --darkreader-selection-text: #e8e6e3;
+}</style><style class="darkreader darkreader--root-vars" media="screen"></style><script async="" src="Manga109_fichiers/analytics.js"></script><script class="darkreader darkreader--proxy">(function injectProxy() {
+        document.dispatchEvent(new CustomEvent('__darkreader__inlineScriptsAllowed'));
+        const addRuleDescriptor = Object.getOwnPropertyDescriptor(CSSStyleSheet.prototype, 'addRule');
+        const insertRuleDescriptor = Object.getOwnPropertyDescriptor(CSSStyleSheet.prototype, 'insertRule');
+        const deleteRuleDescriptor = Object.getOwnPropertyDescriptor(CSSStyleSheet.prototype, 'deleteRule');
+        const removeRuleDescriptor = Object.getOwnPropertyDescriptor(CSSStyleSheet.prototype, 'removeRule');
+        const shouldWrapDocStyleSheets = location.hostname.endsWith('pushbullet.com') || location.hostname.endsWith('ilsole24ore.com');
+        const documentStyleSheetsDescriptor = shouldWrapDocStyleSheets ? Object.getOwnPropertyDescriptor(Document.prototype, 'styleSheets') : null;
+        const cleanUp = () => {
+            Object.defineProperty(CSSStyleSheet.prototype, 'addRule', addRuleDescriptor);
+            Object.defineProperty(CSSStyleSheet.prototype, 'insertRule', insertRuleDescriptor);
+            Object.defineProperty(CSSStyleSheet.prototype, 'deleteRule', deleteRuleDescriptor);
+            Object.defineProperty(CSSStyleSheet.prototype, 'removeRule', removeRuleDescriptor);
+            document.removeEventListener('__darkreader__cleanUp', cleanUp);
+            document.removeEventListener('__darkreader__addUndefinedResolver', addUndefinedResolver);
+            if (shouldWrapDocStyleSheets) {
+                Object.defineProperty(Document.prototype, 'styleSheets', documentStyleSheetsDescriptor);
+            }
+        };
+        const addUndefinedResolver = (e) => {
+            customElements.whenDefined(e.detail.tag).then(() => {
+                document.dispatchEvent(new CustomEvent('__darkreader__isDefined', { detail: { tag: e.detail.tag } }));
+            });
+        };
+        document.addEventListener('__darkreader__cleanUp', cleanUp);
+        document.addEventListener('__darkreader__addUndefinedResolver', addUndefinedResolver);
+        const updateSheetEvent = new Event('__darkreader__updateSheet');
+        function proxyAddRule(selector, style, index) {
+            addRuleDescriptor.value.call(this, selector, style, index);
+            if (this.ownerNode && !this.ownerNode.classList.contains('darkreader')) {
+                this.ownerNode.dispatchEvent(updateSheetEvent);
+            }
+            return -1;
+        }
+        function proxyInsertRule(rule, index) {
+            const returnValue = insertRuleDescriptor.value.call(this, rule, index);
+            if (this.ownerNode && !this.ownerNode.classList.contains('darkreader')) {
+                this.ownerNode.dispatchEvent(updateSheetEvent);
+            }
+            return returnValue;
+        }
+        function proxyDeleteRule(index) {
+            deleteRuleDescriptor.value.call(this, index);
+            if (this.ownerNode && !this.ownerNode.classList.contains('darkreader')) {
+                this.ownerNode.dispatchEvent(updateSheetEvent);
+            }
+        }
+        function proxyRemoveRule(index) {
+            removeRuleDescriptor.value.call(this, index);
+            if (this.ownerNode && !this.ownerNode.classList.contains('darkreader')) {
+                this.ownerNode.dispatchEvent(updateSheetEvent);
+            }
+        }
+        function proxyDocumentStyleSheets() {
+            const docSheets = documentStyleSheetsDescriptor.get.call(this);
+            const filtered = [...docSheets].filter((styleSheet) => {
+                return !styleSheet.ownerNode.classList.contains('darkreader');
+            });
+            return Object.setPrototypeOf(filtered, StyleSheetList.prototype);
+        }
+        Object.defineProperty(CSSStyleSheet.prototype, 'addRule', Object.assign({}, addRuleDescriptor, { value: proxyAddRule }));
+        Object.defineProperty(CSSStyleSheet.prototype, 'insertRule', Object.assign({}, insertRuleDescriptor, { value: proxyInsertRule }));
+        Object.defineProperty(CSSStyleSheet.prototype, 'deleteRule', Object.assign({}, deleteRuleDescriptor, { value: proxyDeleteRule }));
+        Object.defineProperty(CSSStyleSheet.prototype, 'removeRule', Object.assign({}, removeRuleDescriptor, { value: proxyRemoveRule }));
+        if (shouldWrapDocStyleSheets) {
+            Object.defineProperty(Document.prototype, 'styleSheets', Object.assign({}, documentStyleSheetsDescriptor, { get: proxyDocumentStyleSheets }));
+        }
+    })()</script><style class="darkreader darkreader--user-agent" media="screen">html {
+    background-color: #181a1b !important;
+}
+html, body, input, textarea, select, button {
+    background-color: #181a1b;
+}
+html, body, input, textarea, select, button {
+    border-color: #736b5e;
+    color: #e8e6e3;
+}
+a {
+    color: #3391ff;
+}
+table {
+    border-color: #545b5e;
+}
+::placeholder {
+    color: #b2aba1;
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    background-color: #555b00 !important;
+    color: #e8e6e3 !important;
+}
+::-webkit-scrollbar {
+    background-color: #202324;
+    color: #aba499;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #454a4d;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #575e62;
+}
+::-webkit-scrollbar-thumb:active {
+    background-color: #484e51;
+}
+::-webkit-scrollbar-corner {
+    background-color: #181a1b;
+}
+* {
+    scrollbar-color: #454a4d #202324;
+}
+::selection {
+    background-color: #004daa !important;
+    color: #e8e6e3 !important;
+}
+::-moz-selection {
+    background-color: #004daa !important;
+    color: #e8e6e3 !important;
+}</style><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+          
+      <meta charset="utf8">
+      <title>Manga109</title>
+      <meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+      <link href="Manga109_fichiers/bootstrap.css" rel="stylesheet"><style class="darkreader darkreader--sync" media="screen"></style>
+      <link href="Manga109_fichiers/lightbox.css" rel="stylesheet"><style class="darkreader darkreader--sync" media="screen"></style>
+      <link href="Manga109_fichiers/manga109.css" rel="stylesheet"><style class="darkreader darkreader--sync" media="screen"></style>
+      <script src="Manga109_fichiers/jquery_002.js">;</script><meta name="darkreader" content="fab0737575df0faad53ab24c46c79edf"><style class="darkreader darkreader--override" media="screen">.vimvixen-hint {
+    background-color: #7b5300 !important;
+    border-color: #d8b013 !important;
+    color: #f3e8c8 !important;
+}
+::placeholder {
+    opacity: 0.5 !important;
+}
+a[href="https://coinmarketcap.com/"] > svg[width="94"][height="16"] > path {
+    fill: var(--darkreader-neutral-text) !important;
+}
+#edge-translate-panel-body {
+    color: var(--darkreader-neutral-text) !important;
+}</style>
+      <script src="Manga109_fichiers/bootstrap.js">;</script>
+      <link rel="stylesheet" type="text/css" href="Manga109_fichiers/prettify.css"><style class="darkreader darkreader--cors" media="screen">.pln{color:#000}@media screen{.str{color:#080}.kwd{color:#008}.com{color:#800}.typ{color:#606}.lit{color:#066}.clo,.opn,.pun{color:#660}.tag{color:#008}.atn{color:#606}.atv{color:#080}.dec,.var{color:#606}.fun{color:red}}@media print,projection{.kwd,.tag,.typ{font-weight:700}.str{color:#060}.kwd{color:#006}.com{color:#600;font-style:italic}.typ{color:#404}.lit{color:#044}.clo,.opn,.pun{color:#440}.tag{color:#006}.atn{color:#404}.atv{color:#060}}pre.prettyprint{padding:2px;border:1px solid #888}ol.linenums{margin-top:0;margin-bottom:0}li.L0,li.L1,li.L2,li.L3,li.L5,li.L6,li.L7,li.L8{list-style-type:none}li.L1,li.L3,li.L5,li.L7,li.L9{background:#eee}</style><style class="darkreader darkreader--sync" media="screen"></style>
+      <script>
+      (function(i,s,o,g,r,a,m){
+          i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},
+          i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-71718422-1', 'auto');
+      ga('send', 'pageview');
+   </script>
+      <script>
+      $('ul.nav li.dropdown').hover(function() {
+        $(this).find('.dropdown-menu').stop(true, true);
+      }, function() {
+        $(this).find('.dropdown-menu').stop(true, true);
+      });
+   </script>
+      <link rel="stylesheet" href="Manga109_fichiers/style.css" type="text/css" media="print, projection, screen"><style class="darkreader darkreader--sync" media="screen"></style>
+      <script src="Manga109_fichiers/jquery.js" type="text/javascript">;</script>
+    
+        </head>
+        <body>
+          
+      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-target">
+              <span class="sr-only">Toggle navigation</span>
+            </button>
+            <a class="navbar-brand" href="http://www.manga109.org/en/index.html">
+              <img src="Manga109_fichiers/logo.png" alt="" height="50px">
+            </a>
+          </div>
+          <div class="collapse navbar-collapse" id="collapse-target">
+            <ul class="nav navbar-nav">
+              <li>
+                <a href="http://www.manga109.org/en/explore.html">Explore</a>
+              </li>
+              <li class="dropdown">
+                <a href="#">Download<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="http://www.manga109.org/en/download.html">Manga109</a>
+                  </li>
+                  <li>
+                    <a href="http://www.manga109.org/en/download_s.html">Manga109-s</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="http://www.manga109.org/en/annotations.html">Annotations</a>
+              </li>
+              <li>
+                <a href="http://www.manga109.org/en/publication.html">Publication</a>
+              </li>
+              <li>
+                <a href="http://www.manga109.org/en/others.html">Others</a>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a href="http://www.manga109.org/ja/explore.html">Japanese</a>
+              </li>
+              <li>
+                <a href="http://www.manga109.org/en/explore.html">English</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+          
+          <div class="container">
+      The list of manga in Manga109 Dataset is shown below. You can 
+access to the corresponding page of “Manga Library Z” and find specific 
+details of the manga by clicking on each title. You can also sort the 
+table by clicking on the column titles.
+    </div>
+          <div class="container" style="max-width: 1300px;">
+            <table class="tablesorter" id="explore">
+              <thead>
+                <tr>
+                  <th class="header">
+              Num
+            </th>
+                  <th class="header">
+              Cover
+            </th>
+                  <th class="header">
+              Title
+            </th>
+                  <th class="header">
+              Folder Name
+            </th>
+                  <th class="header">
+              Author
+            </th>
+                  <th class="header">
+              Age
+            </th>
+                  <th class="header">
+              Publisher
+            </th>
+                  <th class="header">
+              Target
+            </th>
+                  <th class="header">
+              Genre
+            </th>
+                  <th class="header">
+              Pages
+            </th>
+                  <th class="header">
+              Volume in dataset
+            </th>
+                  <th class="header">
+              Manga109-s
+            </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>
+                    <img src="Manga109_fichiers/1.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/41891" target="_blank">1・2・3でキメてあげる</a>
+                  </td>
+                  <td>Count3DeKimeteAgeru</td>
+                  <td>Omiya Naoi</td>
+                  <td>1980's</td>
+                  <td>Kadokawa Shoten Publishing</td>
+                  <td>boy</td>
+                  <td>sports</td>
+                  <td>198</td>
+                  <td>1</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>
+                    <img src="Manga109_fichiers/2.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/3662" target="_blank">愛さずにはいられない</a>
+                  </td>
+                  <td>AisazuNihaIrarenai</td>
+                  <td>Yoshi Masako</td>
+                  <td>1980's</td>
+                  <td>Shueisha</td>
+                  <td>girl</td>
+                  <td>love romance</td>
+                  <td>187</td>
+                  <td>2</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>
+                    <img src="Manga109_fichiers/3.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/44821" target="_blank">あっけら貫刃帖</a>
+                  </td>
+                  <td>AkkeraKanjinchou</td>
+                  <td>Kobayashi Yuki</td>
+                  <td>2000's</td>
+                  <td>Shueisha</td>
+                  <td>boy</td>
+                  <td>battle</td>
+                  <td>183</td>
+                  <td>1</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>
+                    <img src="Manga109_fichiers/4.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/44351" target="_blank">あくはむ</a>
+                  </td>
+                  <td>Akuhamu</td>
+                  <td>Arai Satoshi</td>
+                  <td>2000's</td>
+                  <td>Kodansha</td>
+                  <td>boy</td>
+                  <td>four-frame cartoons</td>
+                  <td>161</td>
+                  <td>1</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>
+                    <img src="Manga109_fichiers/5.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/49781" target="_blank">青すぎる春</a>
+                  </td>
+                  <td>AosugiruHaru</td>
+                  <td>Okuda Momoko</td>
+                  <td>2000's</td>
+                  <td>Shueisha</td>
+                  <td>lady</td>
+                  <td>love romance</td>
+                  <td>210</td>
+                  <td></td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>
+                    <img src="Manga109_fichiers/6.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/43811" target="_blank">天晴れ！カッポーレ</a>
+                  </td>
+                  <td>AppareKappore</td>
+                  <td>Kanno Hiroshi</td>
+                  <td>1990's</td>
+                  <td>Tokuma Shoten Publishing</td>
+                  <td>boy</td>
+                  <td>science fiction</td>
+                  <td>194</td>
+                  <td>1</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>7</td>
+                  <td>
+                    <img src="Manga109_fichiers/7.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/3861" target="_blank">ありさ2</a>
+                  </td>
+                  <td>Arisa</td>
+                  <td>Yagami Ken</td>
+                  <td>2000's</td>
+                  <td>Kadokawa Shoten Publishing</td>
+                  <td>boy</td>
+                  <td>romantic comedy</td>
+                  <td>194</td>
+                  <td></td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>8</td>
+                  <td>
+                    <img src="Manga109_fichiers/8.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/43001" target="_blank">ARMS</a>
+                  </td>
+                  <td>ARMS</td>
+                  <td>Kato Masaki</td>
+                  <td>1980's</td>
+                  <td>TokyoSanseisya</td>
+                  <td>young men</td>
+                  <td>science fiction</td>
+                  <td>162</td>
+                  <td></td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>9</td>
+                  <td>
+                    <img src="Manga109_fichiers/9.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/44851" target="_blank">爆烈！かんふー娘</a>
+                  </td>
+                  <td>BakuretsuKungFuGirl</td>
+                  <td>Ueda Miki</td>
+                  <td>2000's</td>
+                  <td>Shogakukan</td>
+                  <td>girl</td>
+                  <td>romantic comedy</td>
+                  <td>193</td>
+                  <td></td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>10</td>
+                  <td>
+                    <img src="Manga109_fichiers/10.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/2301" target="_blank">ベルモンド Le VisiteuR</a>
+                  </td>
+                  <td>Belmondo</td>
+                  <td>Ishioka Shoei</td>
+                  <td>2000's</td>
+                  <td>Shueisha</td>
+                  <td>boy</td>
+                  <td>fantasy</td>
+                  <td>198</td>
+                  <td>1</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>11</td>
+                  <td>
+                    <img src="Manga109_fichiers/11.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/4491" target="_blank">BEMADER・P</a>
+                  </td>
+                  <td>BEMADER_P</td>
+                  <td>Hasegawa Yuichi</td>
+                  <td>1980's</td>
+                  <td>Akita Publishing</td>
+                  <td>boy</td>
+                  <td>science fiction</td>
+                  <td>228</td>
+                  <td></td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>12</td>
+                  <td>
+                    <img src="Manga109_fichiers/12.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/44801" target="_blank">ボクはしたたか君</a>
+                  </td>
+                  <td>BokuHaSitatakaKun</td>
+                  <td>Shinzawa Motoei</td>
+                  <td>1980's</td>
+                  <td>Shueisha</td>
+                  <td>boy</td>
+                  <td>humor</td>
+                  <td>197</td>
+                  <td>1</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>13</td>
+                  <td>
+                    <img src="Manga109_fichiers/13.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/3882" target="_blank">ぶらり鉄扇捕物帳</a>
+                  </td>
+                  <td>BurariTessenTorimonocho</td>
+                  <td>Sasaki Atsushi</td>
+                  <td>1990's</td>
+                  <td>Shueisha</td>
+                  <td>young men</td>
+                  <td>historical drama</td>
+                  <td>223</td>
+                  <td>2</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>14</td>
+                  <td>
+                    <img src="Manga109_fichiers/14.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/47241" target="_blank">ばいばいC-BOY</a>
+                  </td>
+                  <td>ByebyeC-BOY</td>
+                  <td>Aida Mayumi</td>
+                  <td>1980's</td>
+                  <td>Hakusensha</td>
+                  <td>girl</td>
+                  <td>science fiction</td>
+                  <td>187</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>15</td>
+                  <td>
+                    <img src="Manga109_fichiers/15.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/3112" target="_blank">ドールガン</a>
+                  </td>
+                  <td>DollGun</td>
+                  <td>Deguchi Ryusei</td>
+                  <td>2000's</td>
+                  <td>Akita Publishing</td>
+                  <td>boy</td>
+                  <td>battle</td>
+                  <td>191</td>
+                  <td>2</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>16</td>
+                  <td>
+                    <img src="Manga109_fichiers/16.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/3911" target="_blank">どんぶらこっこ</a>
+                  </td>
+                  <td>Donburakokko</td>
+                  <td>Nakanuki Eri</td>
+                  <td>1990's</td>
+                  <td>Kadokawa Shoten Publishing</td>
+                  <td>girl</td>
+                  <td>romantic comedy</td>
+                  <td>177</td>
+                  <td></td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>17</td>
+                  <td>
+                    <img src="Manga109_fichiers/17.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/45941" target="_blank">デュアルジャスティス</a>
+                  </td>
+                  <td>DualJustice</td>
+                  <td>Takeyama Yusuke</td>
+                  <td>2000's</td>
+                  <td>TokyoSanseisya</td>
+                  <td>young men</td>
+                  <td>battle</td>
+                  <td>197</td>
+                  <td>1</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>18</td>
+                  <td>
+                    <img src="Manga109_fichiers/18.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/43201" target="_blank">永遠のウィズ</a>
+                  </td>
+                  <td>EienNoWith</td>
+                  <td>Miyauchi Saya</td>
+                  <td>1990's</td>
+                  <td>Kodansha</td>
+                  <td>girl</td>
+                  <td>animal</td>
+                  <td>249</td>
+                  <td></td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>19</td>
+                  <td>
+                    <img src="Manga109_fichiers/19.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/41071" target="_blank">宇宙課々付エヴァ・レディ</a>
+                  </td>
+                  <td>EvaLady</td>
+                  <td>Miyone Shi</td>
+                  <td>1990's</td>
+                  <td>Takeshobo</td>
+                  <td>boy</td>
+                  <td>science fiction</td>
+                  <td>218</td>
+                  <td>1</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>20</td>
+                  <td>
+                    <img src="Manga109_fichiers/20.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/45421" target="_blank">エヴリデイおさかなちゃん</a>
+                  </td>
+                  <td>EverydayOsakanaChan</td>
+                  <td>Kuniki Yuka</td>
+                  <td>1990's</td>
+                  <td>Takeshobo</td>
+                  <td>young men</td>
+                  <td>animal</td>
+                  <td>171</td>
+                  <td></td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>21</td>
+                  <td>
+                    <img src="Manga109_fichiers/21.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/46021" target="_blank">学園ノイズ</a>
+                  </td>
+                  <td>GakuenNoise</td>
+                  <td>Inohara Daisuke</td>
+                  <td>2000's</td>
+                  <td>TokyoSanseisya</td>
+                  <td>lady</td>
+                  <td>battle</td>
+                  <td>197</td>
+                  <td>1</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>22</td>
+                  <td>
+                    <img src="Manga109_fichiers/22.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/4362" target="_blank">がらくた屋まん太</a>
+                  </td>
+                  <td>GarakutayaManta</td>
+                  <td>Nouda Tatsuki</td>
+                  <td>1990's</td>
+                  <td>TokyoSanseisya</td>
+                  <td>young men</td>
+                  <td>humor</td>
+                  <td>205</td>
+                  <td>2</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>23</td>
+                  <td>
+                    <img src="Manga109_fichiers/23.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/46901" target="_blank">銀のキメイラ</a>
+                  </td>
+                  <td>GinNoChimera</td>
+                  <td>Nakamura Chisato</td>
+                  <td>1980's</td>
+                  <td>Akita Publishing</td>
+                  <td>girl</td>
+                  <td>fantasy</td>
+                  <td>206</td>
+                  <td>1</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>24</td>
+                  <td>
+                    <img src="Manga109_fichiers/24.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/43771" target="_blank">GOOD KISS！ Ver.2.0</a>
+                  </td>
+                  <td>GOOD_KISS_Ver2</td>
+                  <td>Kawakata Kaoru</td>
+                  <td>1990's</td>
+                  <td>Kodansha</td>
+                  <td>boy</td>
+                  <td>love romance</td>
+                  <td>189</td>
+                  <td>1</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>25</td>
+                  <td>
+                    <img src="Manga109_fichiers/25.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/43841" target="_blank">ハムレット</a>
+                  </td>
+                  <td>Hamlet</td>
+                  <td>Minamoto Tarou</td>
+                  <td>1970's</td>
+                  <td>Kodansha</td>
+                  <td>boy</td>
+                  <td>historical drama</td>
+                  <td>370</td>
+                  <td></td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>26</td>
+                  <td>
+                    <img src="Manga109_fichiers/26.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/45831" target="_blank">犯罪交渉人 峰岸英太郎</a>
+                  </td>
+                  <td>HanzaiKousyouninMinegishiEitarou</td>
+                  <td>Ki Takashi</td>
+                  <td>2000's</td>
+                  <td>Kodansha</td>
+                  <td>young men</td>
+                  <td>suspence</td>
+                  <td>200</td>
+                  <td>1</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>27</td>
+                  <td>
+                    <img src="Manga109_fichiers/27.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/46211" target="_blank">春一番の吹く頃</a>
+                  </td>
+                  <td>HaruichibanNoFukukoro</td>
+                  <td>Yamada Uduki</td>
+                  <td>2000's</td>
+                  <td>Shueisha</td>
+                  <td>girl</td>
+                  <td>love romance</td>
+                  <td>194</td>
+                  <td></td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>28</td>
+                  <td>
+                    <img src="Manga109_fichiers/28.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/3531" target="_blank">はるかリフレイン</a>
+                  </td>
+                  <td>HarukaRefrain</td>
+                  <td>Ito Shinpei</td>
+                  <td>1990's</td>
+                  <td>Hakusensha</td>
+                  <td>girl</td>
+                  <td>science fiction</td>
+                  <td>197</td>
+                  <td></td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>29</td>
+                  <td>
+                    <img src="Manga109_fichiers/29.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/42811" target="_blank">ヒーリング・プラネット</a>
+                  </td>
+                  <td>HealingPlanet</td>
+                  <td>Sakurano Minene</td>
+                  <td>2000's</td>
+                  <td>ENIX</td>
+                  <td>boy</td>
+                  <td>science fiction</td>
+                  <td>189</td>
+                  <td></td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>30</td>
+                  <td>
+                    <img src="Manga109_fichiers/30.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/45271" target="_blank">平成爺メン</a>
+                  </td>
+                  <td>HeiseiJimen</td>
+                  <td>Yamada Koichi</td>
+                  <td>1990's</td>
+                  <td>GAKKEN</td>
+                  <td>young men</td>
+                  <td>humor</td>
+                  <td>222</td>
+                  <td>1</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>31</td>
+                  <td>
+                    <img src="Manga109_fichiers/31.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/44401" target="_blank">ハイスクール！奇面組</a>
+                  </td>
+                  <td>HighschoolKimengumi</td>
+                  <td>Shinzawa Motoei</td>
+                  <td>1980's</td>
+                  <td>Shueisha</td>
+                  <td>boy</td>
+                  <td>humor</td>
+                  <td>197</td>
+                  <td>1</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>32</td>
+                  <td>
+                    <img src="Manga109_fichiers/32.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/44420" target="_blank">ハイスクール！奇面組</a>
+                  </td>
+                  <td>HighschoolKimengumi</td>
+                  <td>Shinzawa Motoei</td>
+                  <td>1980's</td>
+                  <td>Shueisha</td>
+                  <td>boy</td>
+                  <td>humor</td>
+                  <td>187</td>
+                  <td>20</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>33</td>
+                  <td>
+                    <img src="Manga109_fichiers/33.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/44561" target="_blank">ひなぎく見参！一本桜花町編</a>
+                  </td>
+                  <td>HinagikuKenzan</td>
+                  <td>Sakurano Minene</td>
+                  <td>2000's</td>
+                  <td>TokyoSanseisya</td>
+                  <td>boy</td>
+                  <td>love romance</td>
+                  <td>178</td>
+                  <td>1</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>34</td>
+                  <td>
+                    <img src="Manga109_fichiers/34.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/3441" target="_blank">密・リターンズ！</a>
+                  </td>
+                  <td>HisokaReturns</td>
+                  <td>Yagami Ken</td>
+                  <td>1990's</td>
+                  <td>Shueisha</td>
+                  <td>boy</td>
+                  <td>love romance</td>
+                  <td>179</td>
+                  <td>1</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>35</td>
+                  <td>
+                    <img src="Manga109_fichiers/35.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/47611" target="_blank">ヂャンギリぽんぽん</a>
+                  </td>
+                  <td>JangiriPonpon</td>
+                  <td>Kimura Naomi</td>
+                  <td>1980's</td>
+                  <td>Kodansha</td>
+                  <td>young men</td>
+                  <td>historical drama</td>
+                  <td>220</td>
+                  <td></td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>36</td>
+                  <td>
+                    <img src="Manga109_fichiers/36.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/44711" target="_blank">じじばばファイト！</a>
+                  </td>
+                  <td>JijiBabaFight</td>
+                  <td>Nishikawa Shinji</td>
+                  <td>1990's</td>
+                  <td>Kodansha</td>
+                  <td>boy</td>
+                  <td>humor</td>
+                  <td>145</td>
+                  <td>1</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>37</td>
+                  <td>
+                    <img src="Manga109_fichiers/37.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/3902" target="_blank">女王蟻</a>
+                  </td>
+                  <td>Joouari</td>
+                  <td>Oi Masakazu</td>
+                  <td>2000's</td>
+                  <td>TokyoSanseisya</td>
+                  <td>young men</td>
+                  <td>battle</td>
+                  <td>193</td>
+                  <td>2</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>38</td>
+                  <td>
+                    <img src="Manga109_fichiers/38.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/43651" target="_blank">ジョバレ</a>
+                  </td>
+                  <td>Jyovolley</td>
+                  <td>Shirai sanjirou</td>
+                  <td>2000's</td>
+                  <td>Kodansha</td>
+                  <td>young men</td>
+                  <td>sports</td>
+                  <td>185</td>
+                  <td>1</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>39</td>
+                  <td>
+                    <img src="Manga109_fichiers/39.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/44091" target="_blank">空っぽハイスクール</a>
+                  </td>
+                  <td>KarappoHighschool</td>
+                  <td>Takaguchi Satosumi</td>
+                  <td>1980's</td>
+                  <td>Kadokawa Shoten Publishing</td>
+                  <td>girl</td>
+                  <td>humor</td>
+                  <td>241</td>
+                  <td></td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>40</td>
+                  <td>
+                    <img src="Manga109_fichiers/40.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/3561" target="_blank">君は僕の太陽だ</a>
+                  </td>
+                  <td>KimiHaBokuNoTaiyouDa</td>
+                  <td>Toujo Kazumi</td>
+                  <td>1990's</td>
+                  <td>Hakusensha</td>
+                  <td>young men</td>
+                  <td>love romance</td>
+                  <td>222</td>
+                  <td>1</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>41</td>
+                  <td>
+                    <img src="Manga109_fichiers/41.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/3973" target="_blank">高校の人達</a>
+                  </td>
+                  <td>KoukouNoHitotachi</td>
+                  <td>Kuzuhara Ani</td>
+                  <td>1990's</td>
+                  <td>Kodansha</td>
+                  <td>young men</td>
+                  <td>four-frame cartoons</td>
+                  <td>133</td>
+                  <td>3</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>42</td>
+                  <td>
+                    <img src="Manga109_fichiers/42.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/46991" target="_blank">黒井戸眼科</a>
+                  </td>
+                  <td>KuroidoGanka</td>
+                  <td>Taira Masami</td>
+                  <td>1990's</td>
+                  <td>Kodansha</td>
+                  <td>boy</td>
+                  <td>suspence</td>
+                  <td>201</td>
+                  <td>1</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>43</td>
+                  <td>
+                    <img src="Manga109_fichiers/43.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/45301" target="_blank">極限サイクロン</a>
+                  </td>
+                  <td>KyokugenCyclone</td>
+                  <td>Takanami Shin</td>
+                  <td>2000's</td>
+                  <td>TokyoSanseisya</td>
+                  <td>young men</td>
+                  <td>sports</td>
+                  <td>115</td>
+                  <td></td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>44</td>
+                  <td>
+                    <img src="Manga109_fichiers/44.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/50271" target="_blank">ランスロットフルスロットル</a>
+                  </td>
+                  <td>LancelotFullThrottle</td>
+                  <td>Dynamic Tarou</td>
+                  <td>2000's</td>
+                  <td>Kodansha</td>
+                  <td>boy</td>
+                  <td>humor</td>
+                  <td>194</td>
+                  <td></td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>45</td>
+                  <td>
+                    <img src="Manga109_fichiers/45.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/101" target="_blank">ラブひな</a>
+                  </td>
+                  <td>LoveHina</td>
+                  <td>Akamatsu Ken</td>
+                  <td>1990's</td>
+                  <td>Kodansha</td>
+                  <td>boy</td>
+                  <td>romantic comedy</td>
+                  <td>192</td>
+                  <td>1</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>46</td>
+                  <td>
+                    <img src="Manga109_fichiers/46.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/114" target="_blank">ラブひな</a>
+                  </td>
+                  <td>LoveHina</td>
+                  <td>Akamatsu Ken</td>
+                  <td>1990's</td>
+                  <td>Kodansha</td>
+                  <td>boy</td>
+                  <td>romantic comedy</td>
+                  <td>194</td>
+                  <td>14</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>47</td>
+                  <td>
+                    <img src="Manga109_fichiers/47.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/3802" target="_blank">MAD STONE</a>
+                  </td>
+                  <td>MAD_STONE</td>
+                  <td>Masaki Hidehisa</td>
+                  <td>1990's</td>
+                  <td>Tokuma Shoten Publishing</td>
+                  <td>boy</td>
+                  <td>battle</td>
+                  <td>191</td>
+                  <td>2</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>48</td>
+                  <td>
+                    <img src="Manga109_fichiers/48.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/3512" target="_blank">魔童タイガ</a>
+                  </td>
+                  <td>MadouTaiga</td>
+                  <td>Iogi Juichi</td>
+                  <td>1990's</td>
+                  <td>Kadokawa Shoten Publishing</td>
+                  <td>boy</td>
+                  <td>battle</td>
+                  <td>168</td>
+                  <td>2</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>49</td>
+                  <td>
+                    <img src="Manga109_fichiers/49.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/41581" target="_blank">ティリニア・シリーズ マジシャンロード</a>
+                  </td>
+                  <td>MagicianLoad</td>
+                  <td>Shimada Hirokazu</td>
+                  <td>1980's</td>
+                  <td>Tokuma Shoten Publishing</td>
+                  <td>lady</td>
+                  <td>fantasy</td>
+                  <td>176</td>
+                  <td></td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>50</td>
+                  <td>
+                    <img src="Manga109_fichiers/50.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/41781" target="_blank">魔法使い養成専門マジックスター学院☆☆☆</a>
+                  </td>
+                  <td>MagicStarGakuin</td>
+                  <td>Minamisawa Hishika</td>
+                  <td>2000's</td>
+                  <td>TokyoSanseisya</td>
+                  <td>lady</td>
+                  <td>fantasy</td>
+                  <td>163</td>
+                  <td>1</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>51</td>
+                  <td>
+                    <img src="Manga109_fichiers/51.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/43361" target="_blank">マリア様には内緒</a>
+                  </td>
+                  <td>MariaSamaNihaNaisyo</td>
+                  <td>Konohana Akari</td>
+                  <td>1990's</td>
+                  <td>Shueisha</td>
+                  <td>lady</td>
+                  <td>love romance</td>
+                  <td>193</td>
+                  <td></td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>52</td>
+                  <td>
+                    <img src="Manga109_fichiers/52.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/46161" target="_blank">魔夜の赤い靴</a>
+                  </td>
+                  <td>MayaNoAkaiKutsu</td>
+                  <td>Aida Mayumi</td>
+                  <td>1990's</td>
+                  <td>Asahi Sonorama</td>
+                  <td>girl</td>
+                  <td>horror</td>
+                  <td>180</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>53</td>
+                  <td>
+                    <img src="Manga109_fichiers/53.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/44951" target="_blank">めもり星人</a>
+                  </td>
+                  <td>MemorySeijin</td>
+                  <td>Umino Hotaru</td>
+                  <td>1990's</td>
+                  <td>Kodansha</td>
+                  <td>young men</td>
+                  <td>science fiction</td>
+                  <td>203</td>
+                  <td></td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>54</td>
+                  <td>
+                    <img src="Manga109_fichiers/54.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/45841" target="_blank">メテオさんストライクです！</a>
+                  </td>
+                  <td>MeteoSanStrikeDesu</td>
+                  <td>Takuji</td>
+                  <td>2000's</td>
+                  <td>Kodansha</td>
+                  <td>boy</td>
+                  <td>humor</td>
+                  <td>228</td>
+                  <td>1</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>55</td>
+                  <td>
+                    <img src="Manga109_fichiers/55.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/4251" target="_blank">未来さん</a>
+                  </td>
+                  <td>MiraiSan</td>
+                  <td>Shintani Akihiro</td>
+                  <td>1990's</td>
+                  <td>TokyoSanseisya</td>
+                  <td>young men</td>
+                  <td>science fiction</td>
+                  <td>213</td>
+                  <td></td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>56</td>
+                  <td>
+                    <img src="Manga109_fichiers/56.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/41361" target="_blank">みすて?ないでデイジー</a>
+                  </td>
+                  <td>MisutenaideDaisy</td>
+                  <td>Nagano Noriko</td>
+                  <td>1980's</td>
+                  <td>Tokuma Shoten Publishing</td>
+                  <td>boy</td>
+                  <td>romantic comedy</td>
+                  <td>221</td>
+                  <td>1</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>57</td>
+                  <td>
+                    <img src="Manga109_fichiers/57.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/45391" target="_blank">燃える！お兄さん</a>
+                  </td>
+                  <td>MoeruOnisan</td>
+                  <td>Sato Tadashi</td>
+                  <td>1980's</td>
+                  <td>Shueisha</td>
+                  <td>boy</td>
+                  <td>humor</td>
+                  <td>183</td>
+                  <td>1</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>58</td>
+                  <td>
+                    <img src="Manga109_fichiers/58.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/45409" target="_blank">燃える！お兄さん</a>
+                  </td>
+                  <td>MoeruOnisan</td>
+                  <td>Sato Tadashi</td>
+                  <td>1980's</td>
+                  <td>Shueisha</td>
+                  <td>boy</td>
+                  <td>humor</td>
+                  <td>197</td>
+                  <td>19</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>59</td>
+                  <td>
+                    <img src="Manga109_fichiers/59.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/42671" target="_blank">タナベキヨミ短編集・桃山灰神楽</a>
+                  </td>
+                  <td>MomoyamaHaikagura</td>
+                  <td>Tanabe Kiyomi</td>
+                  <td>2000's</td>
+                  <td>TokyoSanseisya</td>
+                  <td>girl</td>
+                  <td>historical drama</td>
+                  <td>102</td>
+                  <td></td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>60</td>
+                  <td>
+                    <img src="Manga109_fichiers/60.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/42491" target="_blank">むこうきずのチョンボ</a>
+                  </td>
+                  <td>MukoukizuNoChonbo</td>
+                  <td>Minamoto Tarou</td>
+                  <td>1970's</td>
+                  <td>Kodansha</td>
+                  <td>boy</td>
+                  <td>humor</td>
+                  <td>125</td>
+                  <td>1</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>61</td>
+                  <td>
+                    <img src="Manga109_fichiers/61.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/46191" target="_blank">無敵冒険シャクマ</a>
+                  </td>
+                  <td>MutekiBoukenSyakuma</td>
+                  <td>Kazuna Kei</td>
+                  <td>1990's</td>
+                  <td>ENIX</td>
+                  <td>boy</td>
+                  <td>battle</td>
+                  <td>186</td>
+                  <td>1</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>62</td>
+                  <td>
+                    <img src="Manga109_fichiers/62.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/48601" target="_blank">ねこだま</a>
+                  </td>
+                  <td>Nekodama</td>
+                  <td>Ebihurai</td>
+                  <td>2010's</td>
+                  <td>Kodansha</td>
+                  <td>lady</td>
+                  <td>humor</td>
+                  <td>234</td>
+                  <td></td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>63</td>
+                  <td>
+                    <img src="Manga109_fichiers/63.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/46561" target="_blank">日常スープ</a>
+                  </td>
+                  <td>NichijouSoup</td>
+                  <td>Shindou Uni</td>
+                  <td>1990's</td>
+                  <td>TokyoSanseisya</td>
+                  <td>lady</td>
+                  <td>humor</td>
+                  <td>203</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>64</td>
+                  <td>
+                    <img src="Manga109_fichiers/64.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/44451" target="_blank">人形師</a>
+                  </td>
+                  <td>Ningyoushi</td>
+                  <td>Omi Ayuko</td>
+                  <td>1980's</td>
+                  <td>Shogakukan</td>
+                  <td>girl</td>
+                  <td>suspence</td>
+                  <td>189</td>
+                  <td></td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>65</td>
+                  <td>
+                    <img src="Manga109_fichiers/65.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/42911" target="_blank">Oh!われら劣等生徒会</a>
+                  </td>
+                  <td>OhWareraRettouSeitokai</td>
+                  <td>Aida Mayumi</td>
+                  <td>1970's</td>
+                  <td>Hakusensha</td>
+                  <td>girl</td>
+                  <td>love romance</td>
+                  <td>191</td>
+                  <td>1</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>66</td>
+                  <td>
+                    <img src="Manga109_fichiers/66.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/4411" target="_blank">OLランチ</a>
+                  </td>
+                  <td>OL_Lunch</td>
+                  <td>Sanri Youko</td>
+                  <td>1990's</td>
+                  <td>Shogakukan</td>
+                  <td>lady</td>
+                  <td>four-frame cartoons</td>
+                  <td>134</td>
+                  <td></td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>67</td>
+                  <td>
+                    <img src="Manga109_fichiers/67.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/43981" target="_blank">ぱらいそロード</a>
+                  </td>
+                  <td>ParaisoRoad</td>
+                  <td>Kanno Hiroshi</td>
+                  <td>1990's</td>
+                  <td>Tokuma Shoten Publishing</td>
+                  <td>boy</td>
+                  <td>fantasy</td>
+                  <td>210</td>
+                  <td>1</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>68</td>
+                  <td>
+                    <img src="Manga109_fichiers/68.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/45701" target="_blank">ぴかる☆元気です！</a>
+                  </td>
+                  <td>PikaruGenkiDesu</td>
+                  <td>Kuriki Shoko</td>
+                  <td>1990's</td>
+                  <td>Shogakukan</td>
+                  <td>girl</td>
+                  <td>romantic comedy</td>
+                  <td>186</td>
+                  <td>1</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>69</td>
+                  <td>
+                    <img src="Manga109_fichiers/69.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/4322" target="_blank">ＰＬＡＮＥＴ７</a>
+                  </td>
+                  <td>PLANET7</td>
+                  <td>Takeya Shuji</td>
+                  <td>1990's</td>
+                  <td>TokyoSanseisya</td>
+                  <td>young men</td>
+                  <td>science fiction</td>
+                  <td>197</td>
+                  <td>2</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>70</td>
+                  <td>
+                    <img src="Manga109_fichiers/70.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/46951" target="_blank">プラチナジャングル</a>
+                  </td>
+                  <td>PlatinumJungle</td>
+                  <td>Shinohara Masami</td>
+                  <td>1990's</td>
+                  <td>GAKKEN</td>
+                  <td>lady</td>
+                  <td>suspence</td>
+                  <td>171</td>
+                  <td>1</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>71</td>
+                  <td>
+                    <img src="Manga109_fichiers/71.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/47641" target="_blank">プリズム・ハート</a>
+                  </td>
+                  <td>PrismHeart</td>
+                  <td>Asatsuki Mai</td>
+                  <td>2000's</td>
+                  <td>Shueisha</td>
+                  <td>girl</td>
+                  <td>romantic comedy</td>
+                  <td>183</td>
+                  <td></td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>72</td>
+                  <td>
+                    <img src="Manga109_fichiers/72.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/63721" target="_blank">サイコスタッフ</a>
+                  </td>
+                  <td>PsychoStaff</td>
+                  <td>Mizukami Satoshi</td>
+                  <td>2000's</td>
+                  <td>HOUBUNSHA</td>
+                  <td>young men</td>
+                  <td>science fiction</td>
+                  <td>182</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>73</td>
+                  <td>
+                    <img src="Manga109_fichiers/73.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/46551" target="_blank">ラファエロ・その愛</a>
+                  </td>
+                  <td>Raphael</td>
+                  <td>Satonaka Machiko</td>
+                  <td>1990's</td>
+                  <td>TokyoSanseisya</td>
+                  <td>lady</td>
+                  <td>historical drama</td>
+                  <td>234</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>74</td>
+                  <td>
+                    <img src="Manga109_fichiers/74.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/4112" target="_blank">レヴァリアース</a>
+                  </td>
+                  <td>ReveryEarth</td>
+                  <td>Yama Miyuki</td>
+                  <td>1990's</td>
+                  <td>ENIX</td>
+                  <td>boy</td>
+                  <td>fantasy</td>
+                  <td>199</td>
+                  <td>2</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>75</td>
+                  <td>
+                    <img src="Manga109_fichiers/a.html" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/47321" target="_blank">凛として疾風の中　山岡鐡舟伝</a>
+                  </td>
+                  <td>RinToSiteSippuNoNaka</td>
+                  <td>Ide Chikae</td>
+                  <td>2000's</td>
+                  <td>TokyoSanseisya</td>
+                  <td>lady</td>
+                  <td>historical drama</td>
+                  <td>303</td>
+                  <td></td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>76</td>
+                  <td>
+                    <img src="Manga109_fichiers/76.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/43161" target="_blank">ライジングガール！‾人見絹枝物語‾</a>
+                  </td>
+                  <td>RisingGirl</td>
+                  <td>Hikochi Sakuya</td>
+                  <td>2000's</td>
+                  <td>TokyoSanseisya</td>
+                  <td>lady</td>
+                  <td>sports</td>
+                  <td>241</td>
+                  <td></td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>77</td>
+                  <td>
+                    <img src="Manga109_fichiers/77.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/3411" target="_blank">最速!!</a>
+                  </td>
+                  <td>Saisoku</td>
+                  <td>Matsuda Naomasa</td>
+                  <td>2000's</td>
+                  <td>Akita Publishing</td>
+                  <td>boy</td>
+                  <td>sports</td>
+                  <td>199</td>
+                  <td>1</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>78</td>
+                  <td>
+                    <img src="Manga109_fichiers/78.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/4011" target="_blank">サラダデイズ</a>
+                  </td>
+                  <td>SaladDays</td>
+                  <td>Inokuma Shinobu</td>
+                  <td>1990's</td>
+                  <td>Shogakukan</td>
+                  <td>boy</td>
+                  <td>love romance</td>
+                  <td>182</td>
+                  <td>1</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>79</td>
+                  <td>
+                    <img src="Manga109_fichiers/79.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/4028" target="_blank">サラダデイズ</a>
+                  </td>
+                  <td>SaladDays</td>
+                  <td>Inokuma Shinobu</td>
+                  <td>1990's</td>
+                  <td>Shogakukan</td>
+                  <td>boy</td>
+                  <td>love romance</td>
+                  <td>190</td>
+                  <td>18</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>80</td>
+                  <td>
+                    <img src="Manga109_fichiers/80.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/42151" target="_blank">さまよえる少年に純愛を</a>
+                  </td>
+                  <td>SamayoeruSyonenNiJunaiWo</td>
+                  <td>Karikawa Seyu</td>
+                  <td>1990's</td>
+                  <td>Tokuma Shoten Publishing</td>
+                  <td>girl</td>
+                  <td>romantic comedy</td>
+                  <td>178</td>
+                  <td>1</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>81</td>
+                  <td>
+                    <img src="Manga109_fichiers/81.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/3992" target="_blank">征神記ヴァルナス</a>
+                  </td>
+                  <td>SeisinkiVulnus</td>
+                  <td>Shimazaki Yuzuru</td>
+                  <td>1990's</td>
+                  <td>Kodansha</td>
+                  <td>young men</td>
+                  <td>battle</td>
+                  <td>200</td>
+                  <td>2</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>82</td>
+                  <td>
+                    <img src="Manga109_fichiers/82.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/41411" target="_blank">しまっていこうぜ！</a>
+                  </td>
+                  <td>ShimatteIkouze</td>
+                  <td>Yoshimori Mikio</td>
+                  <td>1970's</td>
+                  <td>Akita Publishing</td>
+                  <td>boy</td>
+                  <td>sports</td>
+                  <td>215</td>
+                  <td>1</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>83</td>
+                  <td>
+                    <img src="Manga109_fichiers/83.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/41436" target="_blank">しまっていこうぜ！</a>
+                  </td>
+                  <td>ShimatteIkouze</td>
+                  <td>Yoshimori Mikio</td>
+                  <td>1970's</td>
+                  <td>Akita Publishing</td>
+                  <td>boy</td>
+                  <td>sports</td>
+                  <td>223</td>
+                  <td>26</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>84</td>
+                  <td>
+                    <img src="Manga109_fichiers/84.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/44221" target="_blank">その気でＡＢＣ</a>
+                  </td>
+                  <td>SonokiDeABC</td>
+                  <td>Tashiro Kimu</td>
+                  <td>1980's</td>
+                  <td>Akita Publishing</td>
+                  <td>girl</td>
+                  <td>romantic comedy</td>
+                  <td>198</td>
+                  <td>1</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>85</td>
+                  <td>
+                    <img src="Manga109_fichiers/85.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/44651" target="_blank">しゃぼん玉消えた</a>
+                  </td>
+                  <td>SyabondamaKieta</td>
+                  <td>Omi Ayuko</td>
+                  <td>1980's</td>
+                  <td>Shogakukan</td>
+                  <td>girl</td>
+                  <td>suspence</td>
+                  <td>188</td>
+                  <td></td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>86</td>
+                  <td>
+                    <img src="Manga109_fichiers/86.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/46401" target="_blank">太陽にスマッシュ！</a>
+                  </td>
+                  <td>TaiyouNiSmash</td>
+                  <td>Ayumi Yui</td>
+                  <td>1990's</td>
+                  <td>Kodansha</td>
+                  <td>girl</td>
+                  <td>sports</td>
+                  <td>181</td>
+                  <td>1</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>87</td>
+                  <td>
+                    <img src="Manga109_fichiers/87.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/45761" target="_blank">タップ君の探偵室</a>
+                  </td>
+                  <td>TapkunNoTanteisitsu</td>
+                  <td>Hukuyama Kei</td>
+                  <td>1980's</td>
+                  <td>Tokuma Shoten Publishing</td>
+                  <td>boy</td>
+                  <td>animal</td>
+                  <td>214</td>
+                  <td></td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>88</td>
+                  <td>
+                    <img src="Manga109_fichiers/88.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/42851" target="_blank">黄昏通信</a>
+                  </td>
+                  <td>TasogareTsushin</td>
+                  <td>Tanaka Masato</td>
+                  <td>1980's</td>
+                  <td>TokyoSanseisya</td>
+                  <td>girl</td>
+                  <td>horror</td>
+                  <td>195</td>
+                  <td></td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>89</td>
+                  <td>
+                    <img src="Manga109_fichiers/89.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/3542" target="_blank">天然戦士G</a>
+                  </td>
+                  <td>TennenSenshiG</td>
+                  <td>Matumori Nawoya</td>
+                  <td>1990's</td>
+                  <td>Shogakukan</td>
+                  <td>boy</td>
+                  <td>humor</td>
+                  <td>177</td>
+                  <td>2</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>90</td>
+                  <td>
+                    <img src="Manga109_fichiers/90.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/44921" target="_blank">てんしのはねとアクマのシッポ</a>
+                  </td>
+                  <td>TensiNoHaneToAkumaNoShippo</td>
+                  <td>Kiriga Yuki</td>
+                  <td>2000's</td>
+                  <td>TokyoSanseisya</td>
+                  <td>girl</td>
+                  <td>fantasy</td>
+                  <td>181</td>
+                  <td>1</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>91</td>
+                  <td>
+                    <img src="Manga109_fichiers/91.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/49751" target="_blank">徹さん</a>
+                  </td>
+                  <td>TetsuSan</td>
+                  <td>Kawaguchi Kengo</td>
+                  <td>2000's</td>
+                  <td>TokyoSanseisya</td>
+                  <td>young men</td>
+                  <td>four-frame cartoons</td>
+                  <td>80</td>
+                  <td></td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>92</td>
+                  <td>
+                    <img src="Manga109_fichiers/92.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/3672" target="_blank">That’s!イズミコ</a>
+                  </td>
+                  <td>That'sIzumiko</td>
+                  <td>Ono Yasuyuki</td>
+                  <td>1980's</td>
+                  <td>TokyoSanseisya</td>
+                  <td>young men</td>
+                  <td>fantasy</td>
+                  <td>253</td>
+                  <td>2</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>93</td>
+                  <td>
+                    <img src="Manga109_fichiers/93.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/32043" target="_blank">プレイヤーは眠れない</a>
+                  </td>
+                  <td>PrayerHaNemurenai</td>
+                  <td>Kurosawa Tetsuya, Masaki Hidehisa</td>
+                  <td>1990's</td>
+                  <td>Shogakukan</td>
+                  <td>young men</td>
+                  <td>science fiction</td>
+                  <td>197</td>
+                  <td></td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>94</td>
+                  <td>
+                    <img src="Manga109_fichiers/94.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/43061" target="_blank">とっておきのABC</a>
+                  </td>
+                  <td>TotteokiNoABC</td>
+                  <td>Aida Mayumi</td>
+                  <td>1970's</td>
+                  <td>Hakusensha</td>
+                  <td>girl</td>
+                  <td>romantic comedy</td>
+                  <td>188</td>
+                  <td>1</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>95</td>
+                  <td>
+                    <img src="Manga109_fichiers/95.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/42041" target="_blank">藤太参ります！</a>
+                  </td>
+                  <td>ToutaMairimasu</td>
+                  <td>Saijo Shinji</td>
+                  <td>2000's</td>
+                  <td>Shogakukan</td>
+                  <td>boy</td>
+                  <td>romantic comedy</td>
+                  <td>217</td>
+                  <td>1</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>96</td>
+                  <td>
+                    <img src="Manga109_fichiers/96.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/3841" target="_blank">東洋綺談</a>
+                  </td>
+                  <td>TouyouKidan</td>
+                  <td>Tojo Miho</td>
+                  <td>1990's</td>
+                  <td>Kodansha</td>
+                  <td>young men</td>
+                  <td>fantasy</td>
+                  <td>265</td>
+                  <td></td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>97</td>
+                  <td>
+                    <img src="Manga109_fichiers/97.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/41471" target="_blank">翼の記憶</a>
+                  </td>
+                  <td>TsubasaNoKioku</td>
+                  <td>Sato Harumi</td>
+                  <td>1970's</td>
+                  <td>Asahi Sonorama</td>
+                  <td>boy</td>
+                  <td>animal</td>
+                  <td>193</td>
+                  <td></td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>98</td>
+                  <td>
+                    <img src="Manga109_fichiers/98.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/44191" target="_blank">うちの猫’ず日記</a>
+                  </td>
+                  <td>UchiNoNyan'sDiary</td>
+                  <td>Gasan</td>
+                  <td>2000's</td>
+                  <td>TokyoSanseisya</td>
+                  <td>lady</td>
+                  <td>animal</td>
+                  <td>163</td>
+                  <td></td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>99</td>
+                  <td>
+                    <img src="Manga109_fichiers/99.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/41661" target="_blank">宇宙喜劇M774</a>
+                  </td>
+                  <td>UchuKigekiM774</td>
+                  <td>Hori Nobuyuki</td>
+                  <td>1990's</td>
+                  <td>Takeshobo</td>
+                  <td>young men</td>
+                  <td>science fiction</td>
+                  <td>166</td>
+                  <td></td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>100</td>
+                  <td>
+                    <img src="Manga109_fichiers/100.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/3621" target="_blank">うるとら☆イレブン</a>
+                  </td>
+                  <td>UltraEleven</td>
+                  <td>Yabuno Tenya, Watanabe Tatsuya</td>
+                  <td>1990's</td>
+                  <td>Shueisha</td>
+                  <td>boy</td>
+                  <td>sports</td>
+                  <td>226</td>
+                  <td></td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>101</td>
+                  <td>
+                    <img src="Manga109_fichiers/101.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/46151" target="_blank">アンバランス・トーキョー</a>
+                  </td>
+                  <td>UnbalanceTokyo</td>
+                  <td>Uchida Minako</td>
+                  <td>1980's</td>
+                  <td>Tokuma Shoten Publishing</td>
+                  <td>young men</td>
+                  <td>science fiction</td>
+                  <td>176</td>
+                  <td></td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>102</td>
+                  <td>
+                    <img src="Manga109_fichiers/a.html" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/46221" target="_blank">ワレワレハ、オニデアル</a>
+                  </td>
+                  <td>WarewareHaOniDearu</td>
+                  <td>Nakayama Noriko</td>
+                  <td>2000's</td>
+                  <td>Akita Publishing</td>
+                  <td>lady</td>
+                  <td>romantic comedy</td>
+                  <td>192</td>
+                  <td></td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>103</td>
+                  <td>
+                    <img src="Manga109_fichiers/103.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/42411" target="_blank">やまとの羽根</a>
+                  </td>
+                  <td>YamatoNoHane</td>
+                  <td>Saki Kaori</td>
+                  <td>2000's</td>
+                  <td>Kodansha</td>
+                  <td>young men</td>
+                  <td>sports</td>
+                  <td>227</td>
+                  <td>1</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>104</td>
+                  <td>
+                    <img src="Manga109_fichiers/104.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/41101" target="_blank">やさしい悪魔</a>
+                  </td>
+                  <td>YasasiiAkuma</td>
+                  <td>Hanada Sakumi</td>
+                  <td>1990's</td>
+                  <td>TokyoSanseisya</td>
+                  <td>girl</td>
+                  <td>fantasy</td>
+                  <td>187</td>
+                  <td>1</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>105</td>
+                  <td>
+                    <img src="Manga109_fichiers/105.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/49761" target="_blank">幼稚園ぼうえい組</a>
+                  </td>
+                  <td>YouchienBoueigumi</td>
+                  <td>Tenya</td>
+                  <td>2000's</td>
+                  <td>TokyoSanseisya</td>
+                  <td>lady</td>
+                  <td>four-frame cartoons</td>
+                  <td>53</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>106</td>
+                  <td>
+                    <img src="Manga109_fichiers/106.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/46271" target="_blank">花影戦記　妖魔降臨</a>
+                  </td>
+                  <td>YoumaKourin</td>
+                  <td>Shimazaki Yuzuru, Taka Tsukasa</td>
+                  <td>1990's</td>
+                  <td>Kodansha</td>
+                  <td>boy</td>
+                  <td>fantasy</td>
+                  <td>213</td>
+                  <td>1</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>107</td>
+                  <td>
+                    <img src="Manga109_fichiers/107.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/46461" target="_blank">雪の降る街</a>
+                  </td>
+                  <td>YukiNoFuruMachi</td>
+                  <td>Yamada Uduki</td>
+                  <td>1990's</td>
+                  <td>Shueisha</td>
+                  <td>girl</td>
+                  <td>love romance</td>
+                  <td>190</td>
+                  <td></td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>108</td>
+                  <td>
+                    <img src="Manga109_fichiers/108.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/41381" target="_blank">ゆめ色クッキング</a>
+                  </td>
+                  <td>YumeiroCooking</td>
+                  <td>Kurita Riku</td>
+                  <td>1980's</td>
+                  <td>Kodansha</td>
+                  <td>girl</td>
+                  <td>love romance</td>
+                  <td>192</td>
+                  <td>1</td>
+                  <td>✔</td>
+                </tr>
+                <tr>
+                  <td>109</td>
+                  <td>
+                    <img src="Manga109_fichiers/109.jpg" height="60">
+                  </td>
+                  <td>
+                    <a href="http://www.mangaz.com/book/detail/43881" target="_blank">ゆめのかよいじ</a>
+                  </td>
+                  <td>YumeNoKayoiji</td>
+                  <td>Ono Yasuyuki</td>
+                  <td>1980's</td>
+                  <td>Shonen-gahosha</td>
+                  <td>young men</td>
+                  <td>fantasy</td>
+                  <td>194</td>
+                  <td></td>
+                  <td>✔</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <script type="text/javascript">
+    //
+    $(document).ready(function() {
+      $('#explore').tablesorter();
+    });
+    //
+    </script>
+        
+          
+      <div id="footer" class="text-center" style="margin-top: 60px;">© 
+  <a href="https://www.hal.t.u-tokyo.ac.jp/lab/" target="_blank">Aizawa Yamasaki Matsui Lab</a>., The University of Tokyo. support_comic(a)hal.t.u-tokyo.ac.jp
+  </div>
+    
+        
+      
+    
+      
+</body></html>

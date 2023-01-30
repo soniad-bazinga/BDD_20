@@ -1,0 +1,1 @@
+select distinct id_auteur from Auteurs a1 JOIN Auteurs a2 ON a1.id_oeuvre <> a2.id_oeuvre AND a1.id_auteur = a2.id_auteur AND NOT EXISTS (Select id_auteur FROM auteurs a3 WHERE a3.id_auteur = a2.id_auteur AND a3.id_oeuvre <> ad.id_oeuvre);

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM client c where not exists (SELECT c1.pseudo FROM client c1, paiement p WHERE p.id_client = c.pseudo AND c1.pseudo = c.pseudo AND p.id_commande NOT IN (SELECT id_commande from retourne));

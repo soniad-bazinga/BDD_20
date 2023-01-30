@@ -1,0 +1,1 @@
+SELECT * FROM commande WHERE id_commande IN (SELECT id_commande from retourne);

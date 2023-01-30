@@ -1,0 +1,1 @@
+Select pseudo FROM (SELECT * FROM client WHERE pays = 'Korea, North');
